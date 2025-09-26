@@ -1,0 +1,17 @@
+/bin
+/src
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.log
+*.tmp
+*.out
+*.class
+*.jar
+*.pyc
+*.pyo
