@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build and Run (Debug)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.exe",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Custom build with Makefile (debug)", 
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      "externalConsole": false
+    },
+    {
+      "name": "Build and Run (Release)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.exe",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Custom build with Makefile (release)", 
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      "externalConsole": false
+    }
+  ]
+}

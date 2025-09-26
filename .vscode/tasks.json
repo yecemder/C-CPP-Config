@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "label": "Custom build with Makefile (debug)",
+            "type": "shell",
+            "command": "make",
+            "args": ["debug"],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Custom build task to debug"
+        
+        },
+        {
+            "label": "Custom build with Makefile (release)",
+            "type": "shell",
+            "command": "make",
+            "args": ["release"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Custom build task to release"
+        
+        },
+    ],
+    "version": "2.0.0"
+}
